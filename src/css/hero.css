@@ -1,6 +1,6 @@
 .hero {
     display: block;
-    background-color: #1B414B;
+    background-color:#0E1823;
     width: 100%;
     padding-top: 198px;
     padding-bottom: 243px;
@@ -28,6 +28,7 @@
 .hero-button {
     padding: 14px 32px;
     border-radius: 15px;
+    border: none;
     background: #1B414B;
     color: #FBFBFB;
     font-family: Inter;
