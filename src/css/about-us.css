@@ -1,0 +1,41 @@
+.about-us-section {
+    background-color: #FBFBFB;
+    border-radius: 24px;
+    padding-top: 40px;
+}
+.about-us-title {
+    max-width: 295px;
+    margin-bottom: 40px;
+    color: #1B414B;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    display: flex;
+    justify-content: flex-start;
+}
+.first-paragraph {
+    color: #1B414B;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1; 
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    width: 295px;
+}
+.second-paragraph {
+    color: #040306;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+    margin-bottom: 40px;
+}
