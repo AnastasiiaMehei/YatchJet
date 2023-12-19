@@ -1,9 +1,13 @@
-.hero
+.hero {
+    display: block;
+    background-color: #1B414B;
+    width: 100%;
+    padding-top: 198px;
+    padding-bottom: 243px;
+}
 .hero-title {
-    width:335px;
-    color: #FBFBFB;
     text-align: center;
-    font-family: Inter;
+    color: #FBFBFB;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -32,4 +36,8 @@
     font-weight: 500;
     line-height: 1.28;
     letter-spacing: 0.02em;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
