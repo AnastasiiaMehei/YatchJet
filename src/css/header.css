@@ -3,25 +3,78 @@
   border: 1px solid #FBFBFB;
   background-color: #FBFBFB;
   position: absolute;
-  top: 20px;
+  top: 12px;
   right: 20px;
   left: 20px;
   width: 335px;
+  max-width: 375px;
   height: 42px;
   display: flex;
   align-items: center;
 }
+.nav-links-list {
+  display: none;
+}
+.social-media-icon {
+  display: none;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 335px;
+  justify-content: space-between;
+}
 @media screen and (min-width: 768px) {
   .header {
-    max-width: 704px;
+    width: 704px;
     height: 48px;
+    top: 32px;
+    max-width: 768px;
+    margin: 0 auto 0;
+
   }
+  .header-container {
+    padding-left: 28px;
+    padding-right: 28px;
+    display: flex;
+    width: 704px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header {
+        height: 48px;  
+    align-items: center;
+    right: 100px;
+    left: 100px;
+    width: 1080px;
+    max-width: 1280px;
+}
+.header-container {
+  padding: 0 30px;
+  width: 1080px;
+  padding-top: 4px;
+    padding-bottom: 4px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    width: 1240px;
+    max-width: 1140px;
+    margin: 0 auto 0;
+
+}
+.header-container {
+  width: 1240px;
+
+}
 }
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0;
 }
 .logo {
   color: #1B414B;
@@ -31,10 +84,68 @@ font-weight: 500;
 letter-spacing: -0.03em;
 align-items: center;
 }
-.nav-links {
-  display: none;
-}
+
 @media screen and (min-width: 768px) {
+  .button-menu {
+    display: none;
+  }
+  .logo {
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    margin-right: 109px;
+    display: flex;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  .nav-links-a {
+    width: 91px;
+border-radius: 8px;
+background: rgba(27, 65, 75, 0.50);
+color: #FBFBFB;
+font-size: 9px;
+font-weight: 400;
+line-height: 14.4;
+text-transform: uppercase;
+padding: 15px 25px;
+  }
+  
+  .nav-links-a:focus {
+    background: #1B414B;
+  }
+  .nav-links-a:hover {
+    background: #1B414B;
+
+  }
+.nav-links-list {
+  height: 40px;
+    display: flex;
+    gap: 4px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 96px;
+}
+.social-media-icon {
+  display: flex;
+  gap: 8px;
+}
+.social-media-icon-item {
+  background-color: transparent;
+}
+.social-media-icon-links {
+  fill: #1B414B;
+}
+
+}
+@media screen and (min-width: 1280px) {
+  .logo {
+    
+      margin-right: 296px;
+
+  }
   
 }
 .button-menu {
